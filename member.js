@@ -7,3 +7,6 @@ function skillsMember() {
   };
   return member.skills.sort();
 }
+
+// Create web server
+var server = http.createServer(function (req, res) {
